@@ -1,0 +1,47 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<!--<img src="img/logo.png" alt="logo">-->
+
+<main class="container" style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <div class="jumbotron">
+        <h1 class="display-4" style="margin-bottom: 50px; font-weight: 700;">❋❋❋───────── <%= title %> ─────────❋❋❋</h1>
+    </div>
+
+    <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 30px;">
+
+        
+        <div class="col-md-4" style="margin-bottom: 20px; display: flex;">
+            <div class="card" style="height: 100%; flex-direction: column; border: 3px solid black;">
+                <img src="/img/p2logo.jpg" class="card-img-top" alt="Project 2" style="height: 50%; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <a href="/img/project2/Home Page.html" target="_blank"><h5 class="card-title" style="color: #ca4a14;"><u>Real Estate Website</u></h5></a>
+                    <p class="card-text">The Real Estate Website is an online platform that makes it easier to buy and sell properties. It has a simple and easy-to-use design that showcases three different properties, each with its own unique features and details. Whether you are looking to buy your dream home or sell your property to potential buyers, this website offers a seamless browsing experience. You can find all the information you need, and the website is easy to navigate.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" style="margin-bottom: 20px; display: flex;">
+            <div class="card" style="height: 100%; flex-direction: column; border: 3px solid black;">
+                <img src="/img/p3logo.jpg" class="card-img-top" alt="Project 3" style="height: 50%; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <a href="/img/project3/SRS.pdf" target="_blank"><h5 class="card-title" style="color: #ca4a14;"><u>SRS for MyDentist App</u></h5></a>
+                    <p class="card-text">In order to enable patients to book their appointments with dentists online, the Software Requirements Specification (SRS) for the Online Appointment Booking System provides a comprehensive description of the app's capabilities and features. By eliminating long queues and wait times at dental clinics, this solution aims to offer patients a more convenient way to schedule their appointments.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" style="margin-bottom: 20px; display: flex;">
+            <div class="card" style="height: 100%; flex-direction: column; border: 3px solid black;">
+                <img src="/img/bug.png" class="card-img-top" alt="Project 1" style="height: 50%; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <a href="/img/project1/index.html" target="_blank"><h5 class="card-title" style="color: #ca4a14;"><u>Bug Smasher Game</u></h5></a>
+                    <p class="card-text">The objective of the Bug Smasher game is to smash as many bugs as possible within a given time limit. Every time the player clicks on a bug and successfully smashes it, their score increases. The bugs in the game change their position faster as the player's score increases, making the game more challenging and exciting. In summary, Bug Smasher is a web-based game that is both engaging and addictive.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
